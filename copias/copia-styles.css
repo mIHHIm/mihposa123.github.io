@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* resest */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+html, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#mainheader {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+h4 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes*/
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.btn-outline {
+    background-color: transparent;
+    font-weight: semibold;
+    color: #444;
+    font-size: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem; 
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc, -.5rem -.5rem 1rem #fff;
+}
+
+.btn-outline:hover {
+    box-shadow: .5rem .5rem 1rem #fff, -.5rem -.5rem 1rem #ccc;
+}
+
+.btn-outline:active {
+    box-shadow: inset .2rem .2rem 1rem #fff, inset -.2rem -.2rem 1rem #ccc;
+}
+/*Navbar*/
+
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar a {
+    color: #000;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 12px;
+    
+}
+#navbar img {
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Showcase */
+
+#showcase {
+    /*background: url('/img/showcase.jpg');*/
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+}
+
+#showcase .btn {
+    margin-top: 250px;
+}
+
+#Imagenes1 {
+    position: relative;
+}
+
+/*Projects*/
+#projects {
+    padding: 18px 0;
+}
+.projects-row {
+display:contents;
+}
+
+.projects-row img {
+    width: 100%;
+}
+
+/*About*/
+#about {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.about-row {
+    display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+    width: 50%;
+    padding-left: 50px;
+}
+
+/*contact*/
+
+#contact {
+    padding: 80px 0;
+}
+
+.contact-row {
+    display: flex;
+}
+.contact-row-icon{
+    width: 33%; 
+    text-align: center;
+}
+.contact-row-icon img {
+    height: 60px;
+}
+/*Footer*/
+#mainfooter {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
